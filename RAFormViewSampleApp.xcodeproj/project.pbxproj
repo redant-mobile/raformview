@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0241041684A06B001406AE /* SampleForm.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0241031684A06B001406AE /* SampleForm.plist */; };
+		FE7B133E1681CFC600CC720E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7B133D1681CFC600CC720E /* UIKit.framework */; };
+		FE7B13401681CFC600CC720E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7B133F1681CFC600CC720E /* Foundation.framework */; };
+		FE7B13421681CFC600CC720E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7B13411681CFC600CC720E /* CoreGraphics.framework */; };
+		FE7B13481681CFC600CC720E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE7B13461681CFC600CC720E /* InfoPlist.strings */; };
+		FE7B134A1681CFC600CC720E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B13491681CFC600CC720E /* main.m */; };
+		FE7B134E1681CFC600CC720E /* RAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B134D1681CFC600CC720E /* RAAppDelegate.m */; };
+		FE7B13501681CFC600CC720E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7B134F1681CFC600CC720E /* Default.png */; };
+		FE7B13521681CFC600CC720E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7B13511681CFC600CC720E /* Default@2x.png */; };
+		FE7B13541681CFC600CC720E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7B13531681CFC600CC720E /* Default-568h@2x.png */; };
+		FE7B13571681CFC600CC720E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7B13551681CFC600CC720E /* MainStoryboard.storyboard */; };
+		FE7B135A1681CFC600CC720E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B13591681CFC600CC720E /* FirstViewController.m */; };
+		FE7B137F1681D26800CC720E /* RAFormSecureTextEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B13671681D26800CC720E /* RAFormSecureTextEntryCell.m */; };
+		FE7B13881681D26800CC720E /* PListSerialisation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B13761681D26800CC720E /* PListSerialisation.m */; };
+		FE7B13891681D26800CC720E /* UIView+FindAndResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B13781681D26800CC720E /* UIView+FindAndResignFirstResponder.m */; };
+		FEACE4F716B922A300500D41 /* RAFormSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACE4F216B922A300500D41 /* RAFormSwitchCell.m */; };
+		FEACE4F816B922A300500D41 /* RAFormTextEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACE4F416B922A300500D41 /* RAFormTextEntryCell.m */; };
+		FEACE4F916B922A300500D41 /* RAFormTextSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACE4F616B922A300500D41 /* RAFormTextSelectionCell.m */; };
+		FEACE50416B923F700500D41 /* RAFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACE50116B923F700500D41 /* RAFormViewController.m */; };
+		FEACE50516B923F700500D41 /* RAPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACE50316B923F700500D41 /* RAPickerViewController.m */; };
+		FEACE51416B93C9800500D41 /* RAFormKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEACE51316B93C9800500D41 /* RAFormKit.bundle */; };
+		FEACE51E16B9485700500D41 /* RAFormSecureTextEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEACE51816B9485700500D41 /* RAFormSecureTextEntryCell.xib */; };
+		FEACE51F16B9485700500D41 /* RAFormSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEACE51916B9485700500D41 /* RAFormSwitchCell.xib */; };
+		FEACE52016B9485700500D41 /* RAFormTextEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEACE51A16B9485700500D41 /* RAFormTextEntryCell.xib */; };
+		FEACE52116B9485700500D41 /* RAFormTextSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEACE51B16B9485700500D41 /* RAFormTextSelectionCell.xib */; };
+		FEACE52216B9485700500D41 /* RAFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEACE51C16B9485700500D41 /* RAFormViewController.xib */; };
+		FEACE52316B9485700500D41 /* RAPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEACE51D16B9485700500D41 /* RAPickerViewController.xib */; };
+		FEACE52D16B94BC600500D41 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEACE52C16B94BC600500D41 /* Icon@2x.png */; };
+		FEACE53016B950A500500D41 /* SampleFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEACE52F16B950A400500D41 /* SampleFormViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4079F0D16C40C20007E06C4 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
+		D4079F1016C40C4F007E06C4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE0241031684A06B001406AE /* SampleForm.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleForm.plist; sourceTree = "<group>"; };
+		FE7B13391681CFC600CC720E /* RAFormViewSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAFormViewSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7B133D1681CFC600CC720E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE7B133F1681CFC600CC720E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE7B13411681CFC600CC720E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE7B13451681CFC600CC720E /* RAFormViewSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAFormViewSampleApp-Info.plist"; sourceTree = "<group>"; };
+		FE7B13471681CFC600CC720E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE7B13491681CFC600CC720E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE7B134B1681CFC600CC720E /* RAFormViewSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAFormViewSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		FE7B134C1681CFC600CC720E /* RAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAAppDelegate.h; sourceTree = "<group>"; };
+		FE7B134D1681CFC600CC720E /* RAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAAppDelegate.m; sourceTree = "<group>"; };
+		FE7B134F1681CFC600CC720E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FE7B13511681CFC600CC720E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FE7B13531681CFC600CC720E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FE7B13561681CFC600CC720E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FE7B13581681CFC600CC720E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FE7B13591681CFC600CC720E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FE7B13661681D26800CC720E /* RAFormSecureTextEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAFormSecureTextEntryCell.h; sourceTree = "<group>"; };
+		FE7B13671681D26800CC720E /* RAFormSecureTextEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAFormSecureTextEntryCell.m; sourceTree = "<group>"; };
+		FE7B13751681D26800CC720E /* PListSerialisation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListSerialisation.h; sourceTree = "<group>"; };
+		FE7B13761681D26800CC720E /* PListSerialisation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PListSerialisation.m; sourceTree = "<group>"; };
+		FE7B13771681D26800CC720E /* UIView+FindAndResignFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindAndResignFirstResponder.h"; sourceTree = "<group>"; };
+		FE7B13781681D26800CC720E /* UIView+FindAndResignFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindAndResignFirstResponder.m"; sourceTree = "<group>"; };
+		FEACE4F116B922A300500D41 /* RAFormSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAFormSwitchCell.h; sourceTree = "<group>"; };
+		FEACE4F216B922A300500D41 /* RAFormSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAFormSwitchCell.m; sourceTree = "<group>"; };
+		FEACE4F316B922A300500D41 /* RAFormTextEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAFormTextEntryCell.h; sourceTree = "<group>"; };
+		FEACE4F416B922A300500D41 /* RAFormTextEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAFormTextEntryCell.m; sourceTree = "<group>"; };
+		FEACE4F516B922A300500D41 /* RAFormTextSelectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAFormTextSelectionCell.h; sourceTree = "<group>"; };
+		FEACE4F616B922A300500D41 /* RAFormTextSelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAFormTextSelectionCell.m; sourceTree = "<group>"; };
+		FEACE50016B923F700500D41 /* RAFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAFormViewController.h; sourceTree = "<group>"; };
+		FEACE50116B923F700500D41 /* RAFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAFormViewController.m; sourceTree = "<group>"; };
+		FEACE50216B923F700500D41 /* RAPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPickerViewController.h; sourceTree = "<group>"; };
+		FEACE50316B923F700500D41 /* RAPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPickerViewController.m; sourceTree = "<group>"; };
+		FEACE50816B9257000500D41 /* RAFormViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAFormViewControllerDelegate.h; sourceTree = "<group>"; };
+		FEACE51316B93C9800500D41 /* RAFormKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RAFormKit.bundle; sourceTree = "<group>"; };
+		FEACE51816B9485700500D41 /* RAFormSecureTextEntryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAFormSecureTextEntryCell.xib; sourceTree = "<group>"; };
+		FEACE51916B9485700500D41 /* RAFormSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAFormSwitchCell.xib; sourceTree = "<group>"; };
+		FEACE51A16B9485700500D41 /* RAFormTextEntryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAFormTextEntryCell.xib; sourceTree = "<group>"; };
+		FEACE51B16B9485700500D41 /* RAFormTextSelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAFormTextSelectionCell.xib; sourceTree = "<group>"; };
+		FEACE51C16B9485700500D41 /* RAFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAFormViewController.xib; sourceTree = "<group>"; };
+		FEACE51D16B9485700500D41 /* RAPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAPickerViewController.xib; sourceTree = "<group>"; };
+		FEACE52C16B94BC600500D41 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FEACE52E16B950A400500D41 /* SampleFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFormViewController.h; sourceTree = "<group>"; };
+		FEACE52F16B950A400500D41 /* SampleFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFormViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7B13361681CFC600CC720E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7B133E1681CFC600CC720E /* UIKit.framework in Frameworks */,
+				FE7B13401681CFC600CC720E /* Foundation.framework in Frameworks */,
+				FE7B13421681CFC600CC720E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7B132E1681CFC600CC720E = {
+			isa = PBXGroup;
+			children = (
+				D4079F1016C40C4F007E06C4 /* LICENSE */,
+				D4079F0D16C40C20007E06C4 /* Readme.md */,
+				FE7B13641681D26800CC720E /* RAFormViewKit */,
+				FE7B13431681CFC600CC720E /* RAFormViewSampleApp */,
+				FE7B133C1681CFC600CC720E /* Frameworks */,
+				FE7B133A1681CFC600CC720E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7B133A1681CFC600CC720E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B13391681CFC600CC720E /* RAFormViewSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7B133C1681CFC600CC720E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B133D1681CFC600CC720E /* UIKit.framework */,
+				FE7B133F1681CFC600CC720E /* Foundation.framework */,
+				FE7B13411681CFC600CC720E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE7B13431681CFC600CC720E /* RAFormViewSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				FE0241031684A06B001406AE /* SampleForm.plist */,
+				FE7B134C1681CFC600CC720E /* RAAppDelegate.h */,
+				FE7B134D1681CFC600CC720E /* RAAppDelegate.m */,
+				FE7B13551681CFC600CC720E /* MainStoryboard.storyboard */,
+				FE7B13581681CFC600CC720E /* FirstViewController.h */,
+				FE7B13591681CFC600CC720E /* FirstViewController.m */,
+				FE7B13441681CFC600CC720E /* Supporting Files */,
+				FEACE52E16B950A400500D41 /* SampleFormViewController.h */,
+				FEACE52F16B950A400500D41 /* SampleFormViewController.m */,
+			);
+			path = RAFormViewSampleApp;
+			sourceTree = "<group>";
+		};
+		FE7B13441681CFC600CC720E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEACE52C16B94BC600500D41 /* Icon@2x.png */,
+				FE7B13451681CFC600CC720E /* RAFormViewSampleApp-Info.plist */,
+				FE7B13461681CFC600CC720E /* InfoPlist.strings */,
+				FE7B13491681CFC600CC720E /* main.m */,
+				FE7B134B1681CFC600CC720E /* RAFormViewSampleApp-Prefix.pch */,
+				FE7B134F1681CFC600CC720E /* Default.png */,
+				FE7B13511681CFC600CC720E /* Default@2x.png */,
+				FE7B13531681CFC600CC720E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE7B13641681D26800CC720E /* RAFormViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				FEACE51716B9485700500D41 /* Nibs */,
+				FEACE51316B93C9800500D41 /* RAFormKit.bundle */,
+				FE7B13651681D26800CC720E /* Cells */,
+				FE7B13741681D26800CC720E /* Utility */,
+				FE7B13791681D26800CC720E /* View Controllers */,
+			);
+			name = RAFormViewKit;
+			path = RAFormViewSampleApp/RAFormViewKit;
+			sourceTree = "<group>";
+		};
+		FE7B13651681D26800CC720E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEACE4F116B922A300500D41 /* RAFormSwitchCell.h */,
+				FEACE4F216B922A300500D41 /* RAFormSwitchCell.m */,
+				FEACE4F316B922A300500D41 /* RAFormTextEntryCell.h */,
+				FEACE4F416B922A300500D41 /* RAFormTextEntryCell.m */,
+				FEACE4F516B922A300500D41 /* RAFormTextSelectionCell.h */,
+				FEACE4F616B922A300500D41 /* RAFormTextSelectionCell.m */,
+				FE7B13661681D26800CC720E /* RAFormSecureTextEntryCell.h */,
+				FE7B13671681D26800CC720E /* RAFormSecureTextEntryCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FE7B13741681D26800CC720E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B13751681D26800CC720E /* PListSerialisation.h */,
+				FE7B13761681D26800CC720E /* PListSerialisation.m */,
+				FE7B13771681D26800CC720E /* UIView+FindAndResignFirstResponder.h */,
+				FE7B13781681D26800CC720E /* UIView+FindAndResignFirstResponder.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FE7B13791681D26800CC720E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEACE50816B9257000500D41 /* RAFormViewControllerDelegate.h */,
+				FEACE50016B923F700500D41 /* RAFormViewController.h */,
+				FEACE50116B923F700500D41 /* RAFormViewController.m */,
+				FEACE50216B923F700500D41 /* RAPickerViewController.h */,
+				FEACE50316B923F700500D41 /* RAPickerViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FEACE51716B9485700500D41 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				FEACE51816B9485700500D41 /* RAFormSecureTextEntryCell.xib */,
+				FEACE51916B9485700500D41 /* RAFormSwitchCell.xib */,
+				FEACE51A16B9485700500D41 /* RAFormTextEntryCell.xib */,
+				FEACE51B16B9485700500D41 /* RAFormTextSelectionCell.xib */,
+				FEACE51C16B9485700500D41 /* RAFormViewController.xib */,
+				FEACE51D16B9485700500D41 /* RAPickerViewController.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7B13381681CFC600CC720E /* RAFormViewSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7B135D1681CFC600CC720E /* Build configuration list for PBXNativeTarget "RAFormViewSampleApp" */;
+			buildPhases = (
+				FE7B13351681CFC600CC720E /* Sources */,
+				FE7B13361681CFC600CC720E /* Frameworks */,
+				FE7B13371681CFC600CC720E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAFormViewSampleApp;
+			productName = RAFormViewSampleApp;
+			productReference = FE7B13391681CFC600CC720E /* RAFormViewSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7B13301681CFC600CC720E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Red Ant";
+			};
+			buildConfigurationList = FE7B13331681CFC600CC720E /* Build configuration list for PBXProject "RAFormViewSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE7B132E1681CFC600CC720E;
+			productRefGroup = FE7B133A1681CFC600CC720E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7B13381681CFC600CC720E /* RAFormViewSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7B13371681CFC600CC720E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7B13481681CFC600CC720E /* InfoPlist.strings in Resources */,
+				FE7B13501681CFC600CC720E /* Default.png in Resources */,
+				FE7B13521681CFC600CC720E /* Default@2x.png in Resources */,
+				FE7B13541681CFC600CC720E /* Default-568h@2x.png in Resources */,
+				FE7B13571681CFC600CC720E /* MainStoryboard.storyboard in Resources */,
+				FE0241041684A06B001406AE /* SampleForm.plist in Resources */,
+				FEACE51416B93C9800500D41 /* RAFormKit.bundle in Resources */,
+				FEACE51E16B9485700500D41 /* RAFormSecureTextEntryCell.xib in Resources */,
+				FEACE51F16B9485700500D41 /* RAFormSwitchCell.xib in Resources */,
+				FEACE52016B9485700500D41 /* RAFormTextEntryCell.xib in Resources */,
+				FEACE52116B9485700500D41 /* RAFormTextSelectionCell.xib in Resources */,
+				FEACE52216B9485700500D41 /* RAFormViewController.xib in Resources */,
+				FEACE52316B9485700500D41 /* RAPickerViewController.xib in Resources */,
+				FEACE52D16B94BC600500D41 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7B13351681CFC600CC720E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7B134A1681CFC600CC720E /* main.m in Sources */,
+				FE7B134E1681CFC600CC720E /* RAAppDelegate.m in Sources */,
+				FE7B135A1681CFC600CC720E /* FirstViewController.m in Sources */,
+				FE7B137F1681D26800CC720E /* RAFormSecureTextEntryCell.m in Sources */,
+				FE7B13881681D26800CC720E /* PListSerialisation.m in Sources */,
+				FE7B13891681D26800CC720E /* UIView+FindAndResignFirstResponder.m in Sources */,
+				FEACE4F716B922A300500D41 /* RAFormSwitchCell.m in Sources */,
+				FEACE4F816B922A300500D41 /* RAFormTextEntryCell.m in Sources */,
+				FEACE4F916B922A300500D41 /* RAFormTextSelectionCell.m in Sources */,
+				FEACE50416B923F700500D41 /* RAFormViewController.m in Sources */,
+				FEACE50516B923F700500D41 /* RAPickerViewController.m in Sources */,
+				FEACE53016B950A500500D41 /* SampleFormViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE7B13461681CFC600CC720E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7B13471681CFC600CC720E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE7B13551681CFC600CC720E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7B13561681CFC600CC720E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE7B135B1681CFC600CC720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE7B135C1681CFC600CC720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7B135E1681CFC600CC720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAFormViewSampleApp/RAFormViewSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "RAFormViewSampleApp/RAFormViewSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE7B135F1681CFC600CC720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAFormViewSampleApp/RAFormViewSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "RAFormViewSampleApp/RAFormViewSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7B13331681CFC600CC720E /* Build configuration list for PBXProject "RAFormViewSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7B135B1681CFC600CC720E /* Debug */,
+				FE7B135C1681CFC600CC720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7B135D1681CFC600CC720E /* Build configuration list for PBXNativeTarget "RAFormViewSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7B135E1681CFC600CC720E /* Debug */,
+				FE7B135F1681CFC600CC720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7B13301681CFC600CC720E /* Project object */;
+}
