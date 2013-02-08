@@ -13,6 +13,7 @@ RAFormKit is a simple editable form with some key features:
 * Lightweight
 * ARC-ready
 
+![Screen shot](https://dl.dropbox.com/u/64353587/github/raformview/screenshot.png "Example")
 
 Usage
 -----
